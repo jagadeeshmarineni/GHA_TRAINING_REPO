@@ -17,3 +17,7 @@ jobs:
     runs-on: macOS-latest
     steps:
       - run: echo "Bye World"
+  my-fourth-job:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Bye World"
