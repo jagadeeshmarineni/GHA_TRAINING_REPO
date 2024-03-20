@@ -1,4 +1,4 @@
-name: 02-01-Simple Workflow
+name: 02-RunnerWorkflow
 #on: push
 on: workflow_dispatch
 #on:
@@ -10,6 +10,10 @@ jobs:
     steps:
       - run: echo "Hello World"
   my-second-job:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
+    steps:
+      - run: echo "Bye World"
+  my-third-job:
+    runs-on: mac-latest
     steps:
       - run: echo "Bye World"
