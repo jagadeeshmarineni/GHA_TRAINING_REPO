@@ -4,7 +4,9 @@ jobs:
     shell_script_run_job:
         runs-on: self-hosted
         steps:
+            - uses: actions/checkout@v4
+              name: source code check out
             - run: ./shell_script.sh
-            
+
 
 
