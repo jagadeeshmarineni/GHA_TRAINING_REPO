@@ -14,6 +14,6 @@ jobs:
     steps:
       - run: echo "Bye World"
   my-third-job:
-    runs-on: mac-latest
+    runs-on: macOS-latest
     steps:
       - run: echo "Bye World"
