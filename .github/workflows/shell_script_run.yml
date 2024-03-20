@@ -7,7 +7,7 @@ jobs:
             - uses: actions/checkout@v4
               name: source code check out
             - run: git update-index --chmod=+x ./shell_script.sh  
-            - run: ./shell_script.sh
+            - run: bash shell_script.sh
 
 
 
