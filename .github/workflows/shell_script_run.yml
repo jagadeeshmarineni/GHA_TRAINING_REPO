@@ -6,6 +6,8 @@ jobs:
         steps:
             - uses: actions/checkout@v4
               name: source code check out
+            - run: echo ${GITHUB_WORKSPACE}
+              name: Print GITHUB_WORKSPACE
             - run: git update-index --chmod=+x ./shell_script.sh  
             - run: bash shell_script.sh
 
