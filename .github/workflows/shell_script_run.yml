@@ -10,6 +10,7 @@ jobs:
               name: Print GITHUB_WORKSPACE
             #- run: git update-index --chmod=+x ./shell_script.sh  
             - run: bash shell_script.sh
+              name: shell script run
 
 
 
