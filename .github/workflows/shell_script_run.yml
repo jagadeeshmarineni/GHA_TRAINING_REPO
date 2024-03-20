@@ -9,7 +9,7 @@ jobs:
             - run: echo ${GITHUB_WORKSPACE}
               name: Print GITHUB_WORKSPACE
             #- run: git update-index --chmod=+x ./shell_script.sh  
-            - run: bash shell_script.sh
+            - run: bash echo hostname
               name: shell script run
 
 
