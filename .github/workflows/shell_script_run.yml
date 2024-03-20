@@ -1,0 +1,10 @@
+name: shell-script-run
+on: workflow_dispatch
+jobs:
+    shell_script_run_job:
+        runs-on: self-hosted
+        steps:
+            - run: ./shell_script.sh
+            
+
+
