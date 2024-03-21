@@ -8,7 +8,7 @@ jobs:
               name: source code check out
             - run: ls ${GITHUB_WORKSPACE}
               name: Print GITHUB_WORKSPACE
-            #- run: git update-index --chmod=+x ./shell_script.sh  
+            - run: chmod +x "${GITHUB_WORKSPACE}/shell_script.sh"
             - run: echo hostname
               name: shell script run
 
